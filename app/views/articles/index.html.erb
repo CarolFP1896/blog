@@ -1,0 +1,15 @@
+<h1>Artigos</h1>
+
+<table>
+	<tr>
+		<th>Title</th>
+		<th>Text</th>
+	</tr>
+
+	<% @articles.each do |article| %>
+		<tr>
+			<h1><%= article.title %></h1>
+			<p><%= article.text %></p>
+		</tr>
+	<% end %> 
+</table>
